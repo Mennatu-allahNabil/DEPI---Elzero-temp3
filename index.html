@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Elzero</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
@@ -20,12 +20,32 @@
                 <li><a href="#articles">Articles</a></li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#features">Features</a></li>
-                <li><a href="#features">Other Links</a></li>
+                <li class="mega">
+                    <a href="#">Other Links</a>
+
+                    <div class="mega-menu">
+                        <img src="imgs/megamenu.png" alt="">
+                        <ul class="menu">
+                            <li><a href="#testim"><i class="far fa-comments fa-fw"></i>Testimonials</a></li>
+                            <li><a href="#team-members"><i class="far fa-user fa-fw"></i>Team Members</a></li>
+                            <li><a href="#services"><i class="far fa-building fa-fw"></i>Services</a></li>
+                            <li><a href="#our-skills"><i class="far fa-check-circle fa-fw"></i>Our skills</a></li>
+                            <li><a href="#how-work"><i class="far fa-clipboard fa-fw"></i>How It Works</a></li>
+                        </ul>
+                        <ul class="menu">
+                            <li><a href="#latest-events"><i class="far fa-calendar-alt fa-fw"></i>Latest Events</a></li>
+                            <li><a href="#pricing-plans"><i class="fas fa-server fa-fw"></i>Pricing Plans</a></li>
+                            <li><a href="#top-videos"><i class="far fa-play-circle fa-fw"></i>Top Videos</a></li>
+                            <li><a href="#stats"><i class="far fa-chart-bar fa-fw"></i>Stats</a></li>
+                            <li><a href="#discounts"><i class="fas fa-percent fa-fw"></i>Request A Discount</a></li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
         </nav>
     </header>
-    
-    <div class="hero-section">
+
+    <div class="hero-section" class="section">
         <div class="hero-left">
             <h1>Welcome, To Elzero World</h1>
             <p>Here Iam gonna share everything about my life.
@@ -37,7 +57,7 @@
         <a href="#articles" class="hero-down"><i class="fas fa-angle-double-down fa-2x"></i></a>
     </div>
 
-    <div id="articles">
+    <div id="articles" class="section">
 
         <h2 class="title">articles</h2>
 
@@ -153,7 +173,7 @@
 
     <div class="zigzag"></div>
 
-    <div id="gallery">
+    <div id="gallery" class="section">
 
         <h2 class="title">gallery</h2>
         <div class="gallery-container">
@@ -178,7 +198,7 @@
         </div>
     </div>
 
-    <div id="features">
+    <div id="features" class="section">
         <h2 class="title">features</h2>
 
         <div class="features-container">
@@ -221,7 +241,7 @@
         </div>
     </div>
 
-    <div id="testim">
+    <div id="testim" class="section">
         <h2 class="title">testimonials</h2>
         <div class="testim-container">
             <div class="testim-member">
@@ -342,7 +362,7 @@
 
     </div>
 
-    <div id="team-members">
+    <div id="team-members" class="section">
         <h2 class="title">team members</h2>
 
         <div class="team-members-container">
@@ -455,7 +475,7 @@
 
     <div class="zigzag"></div>
 
-    <div id="services">
+    <div id="services" class="section">
 
         <h2 class="title">services</h2>
 
@@ -523,8 +543,8 @@
         </div>
     </div>
 
-    <div id="our-skills">
-        <h2 class="title">services</h2>
+    <div id="our-skills" class="section">
+        <h2 class="title">our skills</h2>
 
         <div class="skills-container">
             <div class="skills-left">
@@ -571,7 +591,7 @@
         </div>
     </div>
 
-    <div id="how-work">
+    <div id="how-work" class="section">
         <h2 class="title">how it works</h2>
         <div class="how-work-container">
             <img src="imgs/work steps/work-steps.png" alt="">
@@ -606,6 +626,209 @@
             </div>
         </div>
     </div>
+
+
+    <div id="latest-events" class="section">
+        <div class="dots"></div>
+
+        <h2 class="title">latest events</h2>
+        <div class="events-container">
+            <img src="imgs/events.png" alt="">
+
+            <div class="event-details">
+                <div class="times">
+                    <div class="time-unit">
+                        <span class="days">0-573</span>
+                        <span>Days</span>
+                    </div>
+                    <div class="time-unit">
+                        <span class="hours">0-20</span>
+                        <span>Hours</span>
+                    </div>
+                    <div class="time-unit">
+                        <span class="mins">0-46</span>
+                        <span>Minutes</span>
+                    </div>
+                    <div class="time-unit">
+                        <span class="secs">0-12</span>
+                        <span>Seconds</span>
+                    </div>
+                </div>
+                <h2 class="event-title">
+                    Tech Masters Event 2021
+                </h2>
+                <div class="event-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et vero tenetur doloremque iusto ut
+                    adipisci quam ratione aliquam excepturi nulla in harum, veritatis porro
+                </div>
+            </div>
+
+        </div>
+        <div class="event-sub">
+            <div class="sub-cont">
+                <input type="email" placeholder="Enter Your Email">
+                <button>Subscribe</button>
+            </div>
+        </div>
+        <div class="dots"></div>
+    </div>
+
+
+    <div id="pricing-plans" class="section">
+        <div class="dots"></div>
+        <h2 class="title">pricing plans</h2>
+        <div class="pricing-container">
+            <div class="plan">
+                <h3>Basic</h3>
+                <img src="imgs/hosting/hosting-basic.png" alt="">
+                <div class="price">
+                    <span class="amount">$15</span>
+                    <span class="per-time">per month</span>
+                </div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i>10GB HDD Space</li>
+                    <li><i class="fa-solid fa-check"></i>5 Email Addresses</li>
+                    <li><i class="fa-solid fa-check"></i>2 Subdomains</li>
+                    <li><i class="fa-solid fa-check"></i>4 Databases</li>
+                    <li><i class="fa-solid fa-check"></i>Basic Support</li>
+                </ul>
+                <div><button class="choose-plan">Choose Plan</button></div>
+            </div>
+
+
+            <div class="plan">
+                <h3>Advanced</h3>
+                <div class="ribbon">Most Popular</div>
+                <img src="imgs/hosting/hosting-advanced.png" alt="">
+                <div class="price">
+                    <span class="amount">$25</span>
+                    <span class="per-time">per month</span>
+                </div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i>20GB HDD Space</li>
+                    <li><i class="fa-solid fa-check"></i>10 Email Addresses</li>
+                    <li><i class="fa-solid fa-check"></i>5 Subdomains</li>
+                    <li><i class="fa-solid fa-check"></i>8 Databases</li>
+                    <li><i class="fa-solid fa-check"></i>Advanced Support</li>
+                </ul>
+                <div><button class="choose-plan">Choose Plan</button></div>
+            </div>
+
+
+            <div class="plan">
+                <h3>Professional</h3>
+                <img src="imgs/hosting/hosting-professional.png" alt="">
+                <div class="price">
+                    <span class="amount">$45</span>
+                    <span class="per-time">per month</span>
+                </div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i>50GB HDD Space</li>
+                    <li><i class="fa-solid fa-check"></i>20 Email Addresses</li>
+                    <li><i class="fa-solid fa-check"></i>10 Subdomains</li>
+                    <li><i class="fa-solid fa-check"></i>20 Databases</li>
+                    <li><i class="fa-solid fa-check"></i>Professional Support</li>
+                </ul>
+                <div><button class="choose-plan">Choose Plan</button></div>
+            </div>
+        </div>
+        <div class="dots"></div>
+    </div>
+
+    <div id="top-videos" class="section">
+        <h2 class="title"> top videos</h2>
+        <div class="videos-container">
+            <div class="videos-left">
+                <ul>
+                    <li>
+                        <h3>Top Videos</h3> <i class="fa-solid fa-shuffle"></i>
+                    </li>
+                    <li>
+                        <span class="vid-title">how to create sub domain</span>
+                        <span class="vid-duration">05:18</span>
+                    </li>
+                    <li>
+                        <span class="vid-title">playing with the DNS</span>
+                        <span class="vid-duration">03:18</span>
+                    </li>
+                    <li>
+                        <span class="vid-title">Everything About The Virtual Hosts</span>
+                        <span class="vid-duration">05:25</span>
+                    </li>
+                    <li>
+                        <span class="vid-title">how to monitor your website</span>
+                        <span class="vid-duration">04:16</span>
+                    </li>
+                    <li>
+                        <span class="vid-title">Uncharted Beating The Last Boss</span>
+                        <span class="vid-duration">07:48</span>
+                    </li>
+                    <li>
+                        <span class="vid-title">Ys Oath In Felghana Overview</span>
+                        <span class="vid-duration">03:12</span>
+                    </li>
+                    <li>
+                        <span class="vid-title">Ys Series All Games Ending</span>
+                        <span class="vid-duration">08:10</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="videos-right">
+                <img src="imgs/video-preview.jpg" alt="">
+                <p>Everything About The Virtual Hosts</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="stats" class="section">
+        <h2>Our Awesome Stats</h2>
+        <div class="stats-container">
+            <div class="stat">
+                <i class="fa-solid fa-user"></i>
+                <span class="num">150</span>
+                <span class="txt">Clients</span>
+            </div>
+            <div class="stat">
+                <i class="fa-solid fa-code"></i>
+                <span class="num">135</span>
+                <span class="txt">Projects</span>
+            </div>
+            <div class="stat">
+                <i class="fa-solid fa-earth-asia"></i>
+                <span class="num">50</span>
+                <span class="txt">Countries</span>
+            </div>
+            <div class="stat">
+                <i class="fa-solid fa-money-bill-1"></i>
+                <span class="num">500</span>
+                <span class="txt">Money</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="discounts" class="section">
+        <div class="discounts-left">
+            <h2>We Have A Discount</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Excepturi asperiores consectetur, recusandae ratione provident necessitatibus,
+                cumque delectus commodi fuga praesentium beatae.
+                Totam vel similique laborum dicta aperiam odit doloribus corporis.</p>
+            <img src="imgs/discount/discount.png" alt="">
+        </div>
+        <div class="discounts-right">
+            <h2>Request A Discount</h2>
+            <form action="">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <input type="tel" placeholder="Your Phone">
+                <textarea name="" id="" placeholder="Tell Us About Your Needs"></textarea>
+                <button>Send</button>
+            </form>
+        </div>
+    </div>
+
 
     <footer>
         <div class="footer-container">
@@ -660,6 +883,8 @@
             <p>Made with &lt;3 by Elzero</p>
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
